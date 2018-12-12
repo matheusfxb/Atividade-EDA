@@ -24,7 +24,7 @@
 		int esq, dir, pivo, aux;
 		esq = inicio;
 		dir = final;
-		pivo = V[inicio];
+		pivo = V[inicio];          //PIVO ESTÁ NO INICIO DO ARRAY
 		while(esq < dir){
 			while(V[esq] <= pivo)
 				esq++;
