@@ -13,8 +13,6 @@
 
 		printf("\n");
 
-		//printf("O %d menor numero e: ", k);
-
 		quickFind(V, 0, 7, k);
 
 		printf("%d\n", V[k-1]);
